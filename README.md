@@ -12,6 +12,7 @@ PyPDF2 and fitz for PDF handling.
 Vertex AI for generating SSML tags for enhanced speech.
 
 **Features**
+
 Text Extraction: Extracts text from a specified page in a PDF book.
 SSML Generation: Uses AI to generate SSML tags, making the speech sound more natural.
 Text-to-Speech: Converts text into speech using AWS Polly, with speech markers for precise synchronization.
