@@ -1,0 +1,352 @@
+[
+  {
+    "time": 6,
+    "type": "word",
+    "start": 44,
+    "end": 48,
+    "value": "Play"
+  },
+  {
+    "time": 259,
+    "type": "word",
+    "start": 49,
+    "end": 52,
+    "value": "the"
+  },
+  {
+    "time": 366,
+    "type": "word",
+    "start": 53,
+    "end": 57,
+    "value": "game"
+  },
+  {
+    "time": 815,
+    "type": "word",
+    "start": 67,
+    "end": 88,
+    "value": "<break time=\"500ms\"/>"
+  },
+  {
+    "time": 1702,
+    "type": "word",
+    "start": 97,
+    "end": 103,
+    "value": "Listen"
+  },
+  {
+    "time": 2016,
+    "type": "word",
+    "start": 104,
+    "end": 107,
+    "value": "and"
+  },
+  {
+    "time": 2146,
+    "type": "word",
+    "start": 108,
+    "end": 116,
+    "value": "practise"
+  },
+  {
+    "time": 2787,
+    "type": "word",
+    "start": 126,
+    "end": 147,
+    "value": "<break time=\"500ms\"/>"
+  },
+  {
+    "time": 3674,
+    "type": "word",
+    "start": 156,
+    "end": 161,
+    "value": "Stand"
+  },
+  {
+    "time": 4058,
+    "type": "word",
+    "start": 162,
+    "end": 164,
+    "value": "in"
+  },
+  {
+    "time": 4165,
+    "type": "word",
+    "start": 165,
+    "end": 166,
+    "value": "a"
+  },
+  {
+    "time": 4208,
+    "type": "word",
+    "start": 167,
+    "end": 173,
+    "value": "circle"
+  },
+  {
+    "time": 4750,
+    "type": "word",
+    "start": 183,
+    "end": 204,
+    "value": "<break time=\"500ms\"/>"
+  },
+  {
+    "time": 5637,
+    "type": "word",
+    "start": 213,
+    "end": 216,
+    "value": "Ask"
+  },
+  {
+    "time": 5944,
+    "type": "word",
+    "start": 217,
+    "end": 218,
+    "value": "a"
+  },
+  {
+    "time": 5979,
+    "type": "word",
+    "start": 219,
+    "end": 225,
+    "value": "friend"
+  },
+  {
+    "time": 6266,
+    "type": "word",
+    "start": 226,
+    "end": 228,
+    "value": "to"
+  },
+  {
+    "time": 6353,
+    "type": "word",
+    "start": 229,
+    "end": 234,
+    "value": "stand"
+  },
+  {
+    "time": 6730,
+    "type": "word",
+    "start": 235,
+    "end": 237,
+    "value": "in"
+  },
+  {
+    "time": 6814,
+    "type": "word",
+    "start": 238,
+    "end": 241,
+    "value": "the"
+  },
+  {
+    "time": 6881,
+    "type": "word",
+    "start": 242,
+    "end": 248,
+    "value": "middle"
+  },
+  {
+    "time": 7260,
+    "type": "word",
+    "start": 258,
+    "end": 279,
+    "value": "<break time=\"500ms\"/>"
+  },
+  {
+    "time": 8146,
+    "type": "word",
+    "start": 288,
+    "end": 292,
+    "value": "Pass"
+  },
+  {
+    "time": 8401,
+    "type": "word",
+    "start": 293,
+    "end": 296,
+    "value": "the"
+  },
+  {
+    "time": 8509,
+    "type": "word",
+    "start": 297,
+    "end": 301,
+    "value": "ball"
+  },
+  {
+    "time": 9252,
+    "type": "word",
+    "start": 303,
+    "end": 311,
+    "value": "Practise"
+  },
+  {
+    "time": 9866,
+    "type": "word",
+    "start": 321,
+    "end": 339,
+    "value": "<break time=\"1s\"/>"
+  },
+  {
+    "time": 11253,
+    "type": "word",
+    "start": 351,
+    "end": 356,
+    "value": "Where"
+  },
+  {
+    "time": 11449,
+    "type": "word",
+    "start": 357,
+    "end": 359,
+    "value": "do"
+  },
+  {
+    "time": 11531,
+    "type": "word",
+    "start": 360,
+    "end": 363,
+    "value": "you"
+  },
+  {
+    "time": 11649,
+    "type": "word",
+    "start": 364,
+    "end": 368,
+    "value": "live"
+  },
+  {
+    "time": 12011,
+    "type": "word",
+    "start": 381,
+    "end": 402,
+    "value": "<break time=\"500ms\"/>"
+  },
+  {
+    "time": 12897,
+    "type": "word",
+    "start": 414,
+    "end": 415,
+    "value": "I"
+  },
+  {
+    "time": 13003,
+    "type": "word",
+    "start": 416,
+    "end": 420,
+    "value": "live"
+  },
+  {
+    "time": 13193,
+    "type": "word",
+    "start": 421,
+    "end": 423,
+    "value": "in"
+  },
+  {
+    "time": 13655,
+    "type": "word",
+    "start": 464,
+    "end": 482,
+    "value": "<break time=\"1s\"/>"
+  },
+  {
+    "time": 14755,
+    "type": "word",
+    "start": 491,
+    "end": 494,
+    "value": "Say"
+  },
+  {
+    "time": 15316,
+    "type": "word",
+    "start": 504,
+    "end": 525,
+    "value": "<break time=\"500ms\"/>"
+  },
+  {
+    "time": 15909,
+    "type": "word",
+    "start": 534,
+    "end": 539,
+    "value": "Meenu"
+  },
+  {
+    "time": 16600,
+    "type": "word",
+    "start": 541,
+    "end": 545,
+    "value": "this"
+  },
+  {
+    "time": 16779,
+    "type": "word",
+    "start": 546,
+    "end": 548,
+    "value": "is"
+  },
+  {
+    "time": 16916,
+    "type": "word",
+    "start": 549,
+    "end": 551,
+    "value": "my"
+  },
+  {
+    "time": 17073,
+    "type": "word",
+    "start": 552,
+    "end": 558,
+    "value": "friend"
+  },
+  {
+    "time": 17718,
+    "type": "word",
+    "start": 560,
+    "end": 566,
+    "value": "Rasini"
+  },
+  {
+    "time": 18461,
+    "type": "word",
+    "start": 576,
+    "end": 597,
+    "value": "<break time=\"500ms\"/>"
+  },
+  {
+    "time": 19348,
+    "type": "word",
+    "start": 606,
+    "end": 611,
+    "value": "Hello"
+  },
+  {
+    "time": 20176,
+    "type": "word",
+    "start": 613,
+    "end": 619,
+    "value": "Rasini"
+  },
+  {
+    "time": 20883,
+    "type": "word",
+    "start": 629,
+    "end": 650,
+    "value": "<break time=\"500ms\"/>"
+  },
+  {
+    "time": 21770,
+    "type": "word",
+    "start": 659,
+    "end": 664,
+    "value": "Hello"
+  },
+  {
+    "time": 22598,
+    "type": "word",
+    "start": 666,
+    "end": 671,
+    "value": "Meenu"
+  }
+]

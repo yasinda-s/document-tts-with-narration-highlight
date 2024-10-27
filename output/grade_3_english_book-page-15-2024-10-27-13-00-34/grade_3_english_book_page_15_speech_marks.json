@@ -1,0 +1,170 @@
+[
+  {
+    "time": 6,
+    "type": "word",
+    "start": 44,
+    "end": 50,
+    "value": "Listen"
+  },
+  {
+    "time": 706,
+    "type": "word",
+    "start": 52,
+    "end": 57,
+    "value": "count"
+  },
+  {
+    "time": 971,
+    "type": "word",
+    "start": 58,
+    "end": 61,
+    "value": "and"
+  },
+  {
+    "time": 1109,
+    "type": "word",
+    "start": 62,
+    "end": 65,
+    "value": "say"
+  },
+  {
+    "time": 1517,
+    "type": "word",
+    "start": 86,
+    "end": 104,
+    "value": "<break time=\"1s\"/>"
+  },
+  {
+    "time": 2904,
+    "type": "word",
+    "start": 141,
+    "end": 143,
+    "value": "10"
+  },
+  {
+    "time": 3460,
+    "type": "word",
+    "start": 157,
+    "end": 178,
+    "value": "<break time=\"500ms\"/>"
+  },
+  {
+    "time": 4060,
+    "type": "word",
+    "start": 183,
+    "end": 186,
+    "value": "ten"
+  },
+  {
+    "time": 4617,
+    "type": "word",
+    "start": 191,
+    "end": 212,
+    "value": "<break time=\"500ms\"/>"
+  },
+  {
+    "time": 5210,
+    "type": "word",
+    "start": 249,
+    "end": 250,
+    "value": "6"
+  },
+  {
+    "time": 5872,
+    "type": "word",
+    "start": 264,
+    "end": 285,
+    "value": "<break time=\"500ms\"/>"
+  },
+  {
+    "time": 6465,
+    "type": "word",
+    "start": 290,
+    "end": 293,
+    "value": "six"
+  },
+  {
+    "time": 7127,
+    "type": "word",
+    "start": 298,
+    "end": 319,
+    "value": "<break time=\"500ms\"/>"
+  },
+  {
+    "time": 7727,
+    "type": "word",
+    "start": 356,
+    "end": 357,
+    "value": "7"
+  },
+  {
+    "time": 8391,
+    "type": "word",
+    "start": 371,
+    "end": 392,
+    "value": "<break time=\"500ms\"/>"
+  },
+  {
+    "time": 8991,
+    "type": "word",
+    "start": 397,
+    "end": 402,
+    "value": "seven"
+  },
+  {
+    "time": 9656,
+    "type": "word",
+    "start": 407,
+    "end": 428,
+    "value": "<break time=\"500ms\"/>"
+  },
+  {
+    "time": 10250,
+    "type": "word",
+    "start": 465,
+    "end": 466,
+    "value": "8"
+  },
+  {
+    "time": 10765,
+    "type": "word",
+    "start": 480,
+    "end": 501,
+    "value": "<break time=\"500ms\"/>"
+  },
+  {
+    "time": 11358,
+    "type": "word",
+    "start": 506,
+    "end": 511,
+    "value": "eight"
+  },
+  {
+    "time": 11874,
+    "type": "word",
+    "start": 516,
+    "end": 537,
+    "value": "<break time=\"500ms\"/>"
+  },
+  {
+    "time": 12474,
+    "type": "word",
+    "start": 574,
+    "end": 575,
+    "value": "9"
+  },
+  {
+    "time": 13088,
+    "type": "word",
+    "start": 589,
+    "end": 610,
+    "value": "<break time=\"500ms\"/>"
+  },
+  {
+    "time": 13688,
+    "type": "word",
+    "start": 615,
+    "end": 619,
+    "value": "nine"
+  }
+]

@@ -1,49 +1,104 @@
 import tkinter as tk
-from PIL import Image, ImageTk
+from tkinter import font as tkfont
+from PIL import Image, ImageTk, ImageDraw
 import pygame
-import time
-from generations_v2 import mapped_words, PAGE_NUMBER
+from generations import mapped_words, PAGE_NUMBER, output_dir, output_name
 
-root = tk.Tk()
-root.title("Text Highlighting Demo")
+class TextHighlighter:
+    def __init__(self):
+        self.root = tk.Tk()
+        self.root.title("EAG ReadToMe - Learn English with Fun!")
+        self.root.geometry("900x700")
 
-page_image = Image.open(f"output/grade_3_english_book_page_{PAGE_NUMBER}.png")
-photo = ImageTk.PhotoImage(page_image)
+        # Set a fun background color or an image for the window
+        self.root.configure(bg='#ADD8E6')
 
-canvas = tk.Canvas(root, width=page_image.width, height=page_image.height)
-canvas.pack()
+        # Add a title label with a playful font
+        self.title_font = tkfont.Font(family="Comic Sans MS", size=24, weight="bold")
+        self.title_label = tk.Label(
+            self.root, 
+            text="Welcome to ReadToMe!", 
+            font=self.title_font, 
+            bg='#FFD700',
+            fg='#1E90FF',
+            pady=10
+        )
+        self.title_label.pack(fill=tk.X)
 
-canvas_image = canvas.create_image(0, 0, anchor=tk.NW, image=photo)
+        # Add a button to play audio with a playful style
+        self.play_button = tk.Button(
+            self.root, 
+            text="Start Reading", 
+            command=self.start_reading, 
+            font=self.title_font, 
+            bg='#32CD32',
+            fg='white', 
+            activebackground='#228B22',
+            padx=10, pady=5
+        )
+        self.play_button.pack(pady=10)
 
-pygame.mixer.init()
-pygame.mixer.music.load(f'output/page_{PAGE_NUMBER}_audio.mp3')
+        # Load and display the image
+        self.page_image = Image.open(f"{output_dir}/{output_name}_page_{PAGE_NUMBER}.png")
+        self.photo = ImageTk.PhotoImage(self.page_image)
 
-def play_audio():
-    pygame.mixer.music.play()
+        # Create a frame to hold the canvas and give it a colorful border
+        self.canvas_frame = tk.Frame(self.root, bg='#FFD700', bd=5)
+        self.canvas_frame.pack(pady=20)
+        
+        self.canvas = tk.Canvas(self.canvas_frame, width=self.page_image.width, height=self.page_image.height)
+        self.canvas.pack()
+        self.canvas.create_image(0, 0, anchor=tk.NW, image=self.photo)
 
-def highlight_word(bbox):
-    canvas.delete('highlight')
-    x0, y0, x1, y1 = bbox
-    canvas.create_rectangle(x0, y0, x1, y1, outline='red', width=2, tags='highlight')
+        # Initialize audio
+        pygame.mixer.init()
+        pygame.mixer.music.load(f'{output_dir}/{output_name}_page_{PAGE_NUMBER}_audio.mp3')
+        pygame.mixer.music.set_volume(1.0)
 
-play_audio()
+        self.current_index = 0
 
-start_time = time.time()
-current_index = 0
+    def start_reading(self):
+        """Starts the audio playback and begins the highlighting process."""
+        self.play_audio()
+        self.update_highlighting()
 
-def update_highlighting():
-    global current_index
-    current_time_ms = pygame.mixer.music.get_pos()
+    def play_audio(self):
+        """Plays the audio."""
+        pygame.mixer.music.play()
 
-    while current_index < len(mapped_words) and current_time_ms >= mapped_words[current_index]['time_ms']:
-        bbox = mapped_words[current_index]['bbox']
-        highlight_word(bbox)
-        current_index += 1
+    def highlight_word(self, bbox):
+        self.canvas.delete('highlight')
+        x0, y0, x1, y1 = bbox
 
-    if pygame.mixer.music.get_busy():
-        root.after(20, update_highlighting)
-    else:
-        canvas.delete('highlight')
+        # Create an overlay image with a translucent yellow rectangle
+        overlay = Image.new('RGBA', (self.page_image.width, self.page_image.height), (0, 0, 0, 0))
+        draw = ImageDraw.Draw(overlay)
+        draw.rectangle([x0, y0, x1, y1], fill=(255, 255, 0, 128), outline="black", width=2)
 
-root.after(0, update_highlighting)
-root.mainloop()
+        # Convert the overlay to a PhotoImage and draw it on the canvas
+        overlay_photo = ImageTk.PhotoImage(overlay)
+        self.canvas.create_image(0, 0, anchor=tk.NW, image=overlay_photo, tags='highlight')
+        self.canvas.overlay_image = overlay_photo
+
+    def update_highlighting(self):
+        """Updates the highlighted text based on the current playback time."""
+        current_time_ms = pygame.mixer.music.get_pos()
+
+        while (self.current_index < len(mapped_words) and
+               current_time_ms >= mapped_words[self.current_index]['time_ms']):
+            bbox = mapped_words[self.current_index]['bbox']
+            self.highlight_word(bbox)
+            self.current_index += 1
+
+        if pygame.mixer.music.get_busy():
+            self.root.after(20, self.update_highlighting)
+        else:
+            self.canvas.delete('highlight')
+
+    def run(self):
+        """Runs the main Tkinter loop."""
+        self.root.mainloop()
+
+if __name__ == "__main__":
+    app = TextHighlighter()
+    app.run()

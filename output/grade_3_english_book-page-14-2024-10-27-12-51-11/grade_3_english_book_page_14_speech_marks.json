@@ -1,0 +1,331 @@
+[
+  {
+    "time": 6,
+    "type": "word",
+    "start": 42,
+    "end": 46,
+    "value": "Sing"
+  },
+  {
+    "time": 335,
+    "type": "word",
+    "start": 47,
+    "end": 50,
+    "value": "the"
+  },
+  {
+    "time": 437,
+    "type": "word",
+    "start": 51,
+    "end": 55,
+    "value": "song"
+  },
+  {
+    "time": 1089,
+    "type": "word",
+    "start": 76,
+    "end": 97,
+    "value": "<break time=\"500ms\"/>"
+  },
+  {
+    "time": 1976,
+    "type": "word",
+    "start": 134,
+    "end": 137,
+    "value": "One"
+  },
+  {
+    "time": 2159,
+    "type": "word",
+    "start": 138,
+    "end": 144,
+    "value": "little"
+  },
+  {
+    "time": 2427,
+    "type": "word",
+    "start": 145,
+    "end": 151,
+    "value": "finger"
+  },
+  {
+    "time": 3017,
+    "type": "word",
+    "start": 152,
+    "end": 173,
+    "value": "<break time=\"200ms\"/>"
+  },
+  {
+    "time": 3318,
+    "type": "word",
+    "start": 174,
+    "end": 176,
+    "value": "my"
+  },
+  {
+    "time": 3450,
+    "type": "word",
+    "start": 177,
+    "end": 183,
+    "value": "little"
+  },
+  {
+    "time": 3706,
+    "type": "word",
+    "start": 184,
+    "end": 190,
+    "value": "finger"
+  },
+  {
+    "time": 4278,
+    "type": "word",
+    "start": 191,
+    "end": 212,
+    "value": "<break time=\"200ms\"/>"
+  },
+  {
+    "time": 4579,
+    "type": "word",
+    "start": 213,
+    "end": 216,
+    "value": "one"
+  },
+  {
+    "time": 4761,
+    "type": "word",
+    "start": 217,
+    "end": 223,
+    "value": "little"
+  },
+  {
+    "time": 5021,
+    "type": "word",
+    "start": 224,
+    "end": 230,
+    "value": "finger"
+  },
+  {
+    "time": 5621,
+    "type": "word",
+    "start": 231,
+    "end": 252,
+    "value": "<break time=\"200ms\"/>"
+  },
+  {
+    "time": 5915,
+    "type": "word",
+    "start": 253,
+    "end": 256,
+    "value": "tap"
+  },
+  {
+    "time": 6412,
+    "type": "word",
+    "start": 258,
+    "end": 261,
+    "value": "tap"
+  },
+  {
+    "time": 6909,
+    "type": "word",
+    "start": 263,
+    "end": 266,
+    "value": "tap"
+  },
+  {
+    "time": 7376,
+    "type": "word",
+    "start": 287,
+    "end": 308,
+    "value": "<break time=\"500ms\"/>"
+  },
+  {
+    "time": 8262,
+    "type": "word",
+    "start": 345,
+    "end": 348,
+    "value": "Two"
+  },
+  {
+    "time": 8446,
+    "type": "word",
+    "start": 349,
+    "end": 355,
+    "value": "little"
+  },
+  {
+    "time": 8671,
+    "type": "word",
+    "start": 356,
+    "end": 363,
+    "value": "fingers"
+  },
+  {
+    "time": 9365,
+    "type": "word",
+    "start": 364,
+    "end": 385,
+    "value": "<break time=\"200ms\"/>"
+  },
+  {
+    "time": 9666,
+    "type": "word",
+    "start": 386,
+    "end": 388,
+    "value": "my"
+  },
+  {
+    "time": 9799,
+    "type": "word",
+    "start": 389,
+    "end": 395,
+    "value": "little"
+  },
+  {
+    "time": 10055,
+    "type": "word",
+    "start": 396,
+    "end": 403,
+    "value": "fingers"
+  },
+  {
+    "time": 10768,
+    "type": "word",
+    "start": 404,
+    "end": 425,
+    "value": "<break time=\"200ms\"/>"
+  },
+  {
+    "time": 11062,
+    "type": "word",
+    "start": 426,
+    "end": 429,
+    "value": "two"
+  },
+  {
+    "time": 11245,
+    "type": "word",
+    "start": 430,
+    "end": 436,
+    "value": "little"
+  },
+  {
+    "time": 11470,
+    "type": "word",
+    "start": 437,
+    "end": 444,
+    "value": "fingers"
+  },
+  {
+    "time": 12184,
+    "type": "word",
+    "start": 445,
+    "end": 466,
+    "value": "<break time=\"200ms\"/>"
+  },
+  {
+    "time": 12484,
+    "type": "word",
+    "start": 467,
+    "end": 470,
+    "value": "tap"
+  },
+  {
+    "time": 12988,
+    "type": "word",
+    "start": 472,
+    "end": 475,
+    "value": "tap"
+  },
+  {
+    "time": 13485,
+    "type": "word",
+    "start": 477,
+    "end": 480,
+    "value": "tap"
+  },
+  {
+    "time": 13951,
+    "type": "word",
+    "start": 501,
+    "end": 522,
+    "value": "<break time=\"500ms\"/>"
+  },
+  {
+    "time": 14838,
+    "type": "word",
+    "start": 559,
+    "end": 564,
+    "value": "Three"
+  },
+  {
+    "time": 15044,
+    "type": "word",
+    "start": 565,
+    "end": 571,
+    "value": "little"
+  },
+  {
+    "time": 15617,
+    "type": "word",
+    "start": 576,
+    "end": 580,
+    "value": "Four"
+  },
+  {
+    "time": 15810,
+    "type": "word",
+    "start": 581,
+    "end": 587,
+    "value": "little"
+  },
+  {
+    "time": 16334,
+    "type": "word",
+    "start": 592,
+    "end": 596,
+    "value": "Five"
+  },
+  {
+    "time": 16634,
+    "type": "word",
+    "start": 597,
+    "end": 603,
+    "value": "little"
+  },
+  {
+    "time": 17435,
+    "type": "word",
+    "start": 609,
+    "end": 616,
+    "value": "fingers"
+  },
+  {
+    "time": 18133,
+    "type": "word",
+    "start": 617,
+    "end": 638,
+    "value": "<break time=\"200ms\"/>"
+  },
+  {
+    "time": 18433,
+    "type": "word",
+    "start": 639,
+    "end": 643,
+    "value": "clap"
+  },
+  {
+    "time": 19046,
+    "type": "word",
+    "start": 645,
+    "end": 649,
+    "value": "clap"
+  },
+  {
+    "time": 19671,
+    "type": "word",
+    "start": 651,
+    "end": 655,
+    "value": "clap"
+  }
+]
